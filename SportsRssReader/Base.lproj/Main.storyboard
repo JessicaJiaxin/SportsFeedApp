@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8Yg-gL-6Qf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Sports News-->
+        <scene sceneID="jGj-zP-U9s">
+            <objects>
+                <viewController id="dvb-WX-ZFD" customClass="RootViewController" customModule="SportsRssReader" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IAI-hS-eIu"/>
+                        <viewControllerLayoutGuide type="bottom" id="cS5-2p-hjc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oLB-X8-yMJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.094013721440623699" green="0.58705560118140676" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.99215692281723022" green="0.96862751245498657" blue="0.21568629145622253" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sports News" id="raH-oI-mtW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYI-JK-lHB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="505" y="180"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0cm-up-h1I">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Yg-gL-6Qf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4ft-ix-3XC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dvb-WX-ZFD" kind="relationship" relationship="rootViewController" id="lb2-Bo-IqQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uIH-NG-Qnx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-27" y="180"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

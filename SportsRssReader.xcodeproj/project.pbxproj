@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D241B8B41ADC7F68008BBF9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241B8B31ADC7F68008BBF9E /* AppDelegate.swift */; };
+		D241B8BC1ADC7F68008BBF9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D241B8BA1ADC7F68008BBF9E /* Main.storyboard */; };
+		D241B8BE1ADC7F68008BBF9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D241B8BD1ADC7F68008BBF9E /* Images.xcassets */; };
+		D241B8C11ADC7F68008BBF9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D241B8BF1ADC7F68008BBF9E /* LaunchScreen.xib */; };
+		D241B8CD1ADC7F68008BBF9E /* SportsRssReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241B8CC1ADC7F68008BBF9E /* SportsRssReaderTests.swift */; };
+		D241B8D91ADC7F87008BBF9E /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D241B8D81ADC7F87008BBF9E /* ViewPagerController.m */; };
+		D241B8DC1ADC853C008BBF9E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241B8DB1ADC853C008BBF9E /* RootViewController.swift */; };
+		D24AC92A1ADD91F4006BD60B /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC9291ADD91F4006BD60B /* News.swift */; };
+		D26064B41ADD77BE00FE1B97 /* NewsDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26064B21ADD77BE00FE1B97 /* NewsDisplayer.swift */; };
+		D26064B51ADD77BE00FE1B97 /* NewsDisplayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26064B31ADD77BE00FE1B97 /* NewsDisplayer.xib */; };
+		D283E6831ADD58FD009CCF30 /* TempNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283E6821ADD58FD009CCF30 /* TempNews.swift */; };
+		D2F7720D1ADC91CA009159CB /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F7720C1ADC91CA009159CB /* NewsListViewController.swift */; };
+		D2F772121ADCA3EC009159CB /* SportsRssReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2F772101ADCA3EC009159CB /* SportsRssReader.xcdatamodeld */; };
+		D2F772171ADCA4A8009159CB /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F772161ADCA4A8009159CB /* CoreDataManager.m */; };
+		D2F7721B1ADCA6E6009159CB /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F772191ADCA6E6009159CB /* NewsCell.swift */; };
+		D2F7721C1ADCA6E6009159CB /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F7721A1ADCA6E6009159CB /* NewsCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D241B8C71ADC7F68008BBF9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D241B8A61ADC7F68008BBF9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D241B8AD1ADC7F68008BBF9E;
+			remoteInfo = SportsRssReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D241B8AE1ADC7F68008BBF9E /* SportsRssReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsRssReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D241B8B21ADC7F68008BBF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D241B8B31ADC7F68008BBF9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D241B8BB1ADC7F68008BBF9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D241B8BD1ADC7F68008BBF9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D241B8C01ADC7F68008BBF9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D241B8C61ADC7F68008BBF9E /* SportsRssReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsRssReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D241B8CB1ADC7F68008BBF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D241B8CC1ADC7F68008BBF9E /* SportsRssReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsRssReaderTests.swift; sourceTree = "<group>"; };
+		D241B8D61ADC7F86008BBF9E /* SportsRssReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SportsRssReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		D241B8D71ADC7F87008BBF9E /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
+		D241B8D81ADC7F87008BBF9E /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
+		D241B8DB1ADC853C008BBF9E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D24AC9291ADD91F4006BD60B /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		D26064B21ADD77BE00FE1B97 /* NewsDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDisplayer.swift; sourceTree = "<group>"; };
+		D26064B31ADD77BE00FE1B97 /* NewsDisplayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDisplayer.xib; sourceTree = "<group>"; };
+		D283E6821ADD58FD009CCF30 /* TempNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempNews.swift; sourceTree = "<group>"; };
+		D2F7720C1ADC91CA009159CB /* NewsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		D2F772111ADCA3EC009159CB /* SportsRssReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsRssReader.xcdatamodel; sourceTree = "<group>"; };
+		D2F772151ADCA4A8009159CB /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		D2F772161ADCA4A8009159CB /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		D2F772191ADCA6E6009159CB /* NewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		D2F7721A1ADCA6E6009159CB /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D241B8AB1ADC7F68008BBF9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D241B8C31ADC7F68008BBF9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D241B8A51ADC7F68008BBF9E = {
+			isa = PBXGroup;
+			children = (
+				D241B8B01ADC7F68008BBF9E /* SportsRssReader */,
+				D241B8C91ADC7F68008BBF9E /* SportsRssReaderTests */,
+				D241B8AF1ADC7F68008BBF9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D241B8AF1ADC7F68008BBF9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D241B8AE1ADC7F68008BBF9E /* SportsRssReader.app */,
+				D241B8C61ADC7F68008BBF9E /* SportsRssReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D241B8B01ADC7F68008BBF9E /* SportsRssReader */ = {
+			isa = PBXGroup;
+			children = (
+				D26064B81ADD796B00FE1B97 /* Cells */,
+				D26064B71ADD795400FE1B97 /* Model */,
+				D26064B61ADD794500FE1B97 /* NewsList */,
+				D241B8B31ADC7F68008BBF9E /* AppDelegate.swift */,
+				D241B8DB1ADC853C008BBF9E /* RootViewController.swift */,
+				D241B8BA1ADC7F68008BBF9E /* Main.storyboard */,
+				D2F772101ADCA3EC009159CB /* SportsRssReader.xcdatamodeld */,
+				D241B8BD1ADC7F68008BBF9E /* Images.xcassets */,
+				D241B8BF1ADC7F68008BBF9E /* LaunchScreen.xib */,
+				D241B8B11ADC7F68008BBF9E /* Supporting Files */,
+			);
+			path = SportsRssReader;
+			sourceTree = "<group>";
+		};
+		D241B8B11ADC7F68008BBF9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D241B8D61ADC7F86008BBF9E /* SportsRssReader-Bridging-Header.h */,
+				D241B8DA1ADC814F008BBF9E /* ViewPager */,
+				D2F772181ADCA4AC009159CB /* CoreDataManager */,
+				D241B8B21ADC7F68008BBF9E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D241B8C91ADC7F68008BBF9E /* SportsRssReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D241B8CC1ADC7F68008BBF9E /* SportsRssReaderTests.swift */,
+				D241B8CA1ADC7F68008BBF9E /* Supporting Files */,
+			);
+			path = SportsRssReaderTests;
+			sourceTree = "<group>";
+		};
+		D241B8CA1ADC7F68008BBF9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D241B8CB1ADC7F68008BBF9E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D241B8DA1ADC814F008BBF9E /* ViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				D241B8D71ADC7F87008BBF9E /* ViewPagerController.h */,
+				D241B8D81ADC7F87008BBF9E /* ViewPagerController.m */,
+			);
+			name = ViewPager;
+			sourceTree = "<group>";
+		};
+		D26064B61ADD794500FE1B97 /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				D2F7720C1ADC91CA009159CB /* NewsListViewController.swift */,
+				D26064B21ADD77BE00FE1B97 /* NewsDisplayer.swift */,
+				D26064B31ADD77BE00FE1B97 /* NewsDisplayer.xib */,
+			);
+			name = NewsList;
+			sourceTree = "<group>";
+		};
+		D26064B71ADD795400FE1B97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D24AC9291ADD91F4006BD60B /* News.swift */,
+				D283E6821ADD58FD009CCF30 /* TempNews.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D26064B81ADD796B00FE1B97 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D2F772191ADCA6E6009159CB /* NewsCell.swift */,
+				D2F7721A1ADCA6E6009159CB /* NewsCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D2F772181ADCA4AC009159CB /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				D2F772151ADCA4A8009159CB /* CoreDataManager.h */,
+				D2F772161ADCA4A8009159CB /* CoreDataManager.m */,
+			);
+			name = CoreDataManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D241B8AD1ADC7F68008BBF9E /* SportsRssReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D241B8D01ADC7F68008BBF9E /* Build configuration list for PBXNativeTarget "SportsRssReader" */;
+			buildPhases = (
+				D241B8AA1ADC7F68008BBF9E /* Sources */,
+				D241B8AB1ADC7F68008BBF9E /* Frameworks */,
+				D241B8AC1ADC7F68008BBF9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsRssReader;
+			productName = SportsRssReader;
+			productReference = D241B8AE1ADC7F68008BBF9E /* SportsRssReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D241B8C51ADC7F68008BBF9E /* SportsRssReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D241B8D31ADC7F68008BBF9E /* Build configuration list for PBXNativeTarget "SportsRssReaderTests" */;
+			buildPhases = (
+				D241B8C21ADC7F68008BBF9E /* Sources */,
+				D241B8C31ADC7F68008BBF9E /* Frameworks */,
+				D241B8C41ADC7F68008BBF9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D241B8C81ADC7F68008BBF9E /* PBXTargetDependency */,
+			);
+			name = SportsRssReaderTests;
+			productName = SportsRssReaderTests;
+			productReference = D241B8C61ADC7F68008BBF9E /* SportsRssReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D241B8A61ADC7F68008BBF9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = jl6467;
+				TargetAttributes = {
+					D241B8AD1ADC7F68008BBF9E = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D241B8C51ADC7F68008BBF9E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D241B8AD1ADC7F68008BBF9E;
+					};
+				};
+			};
+			buildConfigurationList = D241B8A91ADC7F68008BBF9E /* Build configuration list for PBXProject "SportsRssReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D241B8A51ADC7F68008BBF9E;
+			productRefGroup = D241B8AF1ADC7F68008BBF9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D241B8AD1ADC7F68008BBF9E /* SportsRssReader */,
+				D241B8C51ADC7F68008BBF9E /* SportsRssReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D241B8AC1ADC7F68008BBF9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D241B8BC1ADC7F68008BBF9E /* Main.storyboard in Resources */,
+				D241B8C11ADC7F68008BBF9E /* LaunchScreen.xib in Resources */,
+				D26064B51ADD77BE00FE1B97 /* NewsDisplayer.xib in Resources */,
+				D2F7721C1ADCA6E6009159CB /* NewsCell.xib in Resources */,
+				D241B8BE1ADC7F68008BBF9E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D241B8C41ADC7F68008BBF9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D241B8AA1ADC7F68008BBF9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F772171ADCA4A8009159CB /* CoreDataManager.m in Sources */,
+				D283E6831ADD58FD009CCF30 /* TempNews.swift in Sources */,
+				D2F7720D1ADC91CA009159CB /* NewsListViewController.swift in Sources */,
+				D241B8D91ADC7F87008BBF9E /* ViewPagerController.m in Sources */,
+				D241B8DC1ADC853C008BBF9E /* RootViewController.swift in Sources */,
+				D24AC92A1ADD91F4006BD60B /* News.swift in Sources */,
+				D26064B41ADD77BE00FE1B97 /* NewsDisplayer.swift in Sources */,
+				D241B8B41ADC7F68008BBF9E /* AppDelegate.swift in Sources */,
+				D2F7721B1ADCA6E6009159CB /* NewsCell.swift in Sources */,
+				D2F772121ADCA3EC009159CB /* SportsRssReader.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D241B8C21ADC7F68008BBF9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D241B8CD1ADC7F68008BBF9E /* SportsRssReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D241B8C81ADC7F68008BBF9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D241B8AD1ADC7F68008BBF9E /* SportsRssReader */;
+			targetProxy = D241B8C71ADC7F68008BBF9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D241B8BA1ADC7F68008BBF9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D241B8BB1ADC7F68008BBF9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D241B8BF1ADC7F68008BBF9E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D241B8C01ADC7F68008BBF9E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D241B8CE1ADC7F68008BBF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D241B8CF1ADC7F68008BBF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D241B8D11ADC7F68008BBF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SportsRssReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SportsRssReader/SportsRssReader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D241B8D21ADC7F68008BBF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SportsRssReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SportsRssReader/SportsRssReader-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D241B8D41ADC7F68008BBF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SportsRssReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsRssReader.app/SportsRssReader";
+			};
+			name = Debug;
+		};
+		D241B8D51ADC7F68008BBF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SportsRssReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsRssReader.app/SportsRssReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D241B8A91ADC7F68008BBF9E /* Build configuration list for PBXProject "SportsRssReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D241B8CE1ADC7F68008BBF9E /* Debug */,
+				D241B8CF1ADC7F68008BBF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D241B8D01ADC7F68008BBF9E /* Build configuration list for PBXNativeTarget "SportsRssReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D241B8D11ADC7F68008BBF9E /* Debug */,
+				D241B8D21ADC7F68008BBF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D241B8D31ADC7F68008BBF9E /* Build configuration list for PBXNativeTarget "SportsRssReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D241B8D41ADC7F68008BBF9E /* Debug */,
+				D241B8D51ADC7F68008BBF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2F772101ADCA3EC009159CB /* SportsRssReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2F772111ADCA3EC009159CB /* SportsRssReader.xcdatamodel */,
+			);
+			currentVersion = D2F772111ADCA3EC009159CB /* SportsRssReader.xcdatamodel */;
+			path = SportsRssReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D241B8A61ADC7F68008BBF9E /* Project object */;
+}
