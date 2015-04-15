@@ -2,7 +2,7 @@
 //  NewsCell.swift
 //  SportsRssReader
 //
-//  Created by Cunqi.X on 4/13/15.
+//  Created by Jiaxin.L on 4/14/15.
 //  Copyright (c) 2015 jl6467. All rights reserved.
 //
 
@@ -23,7 +23,7 @@ class NewsCell: UITableViewCell {
         
         self.canvas.layer.masksToBounds = false
         self.canvas.layer.cornerRadius = 1.8
-        self.canvas.layer.borderColor = UIColor.grayColor().CGColor
+        self.canvas.layer.borderColor = UIColor.whiteColor().CGColor
         self.canvas.layer.borderWidth = 1.0
         self.canvas.layer.backgroundColor = UIColor.whiteColor().CGColor
         self.canvas.layer.shadowColor = UIColor.blackColor().CGColor

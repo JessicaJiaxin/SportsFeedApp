@@ -2,7 +2,7 @@
 //  NewsDisplayer.swift
 //  SportsRssReader
 //
-//  Created by Cunqi.X on 4/14/15.
+//  Created by Jiaxin.L on 4/14/15.
 //  Copyright (c) 2015 jl6467. All rights reserved.
 //
 
@@ -13,15 +13,24 @@ class NewsDisplayer: UIViewController {
     
     var url: String!
     var titleText: String!
+    var newsURL: NSURL!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let newsURL = NSURL(string: self.url.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!)
+        newsURL = NSURL(string: self.url.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!)
         let newsRequest = NSURLRequest(URL: newsURL!)
         
         self.webView.loadRequest(newsRequest)
         self.title = titleText
+        
+        //add sharing feature
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Action, target: self, action: "shareFeature")
+    }
+    
+    func shareFeature() {
+        let activityController = UIActivityViewController(activityItems: [url, newsURL], applicationActivities: nil)
+        self.presentViewController(activityController, animated: true, completion: nil)
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {

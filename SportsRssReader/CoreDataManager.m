@@ -2,7 +2,7 @@
 //  CoreDataManager.m
 //  DayReminder
 //
-//  Created by Cunqi.X on 1/31/15.
+//  Created by Jiaxin.L on 1/31/15.
 //  Copyright (c) 2015 cx363. All rights reserved.
 //
 #import "CoreDataManager.h"

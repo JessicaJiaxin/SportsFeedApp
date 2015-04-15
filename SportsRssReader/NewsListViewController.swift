@@ -2,7 +2,7 @@
 //  NewsListViewController.swift
 //  SportsRssReader
 //
-//  Created by Cunqi.X on 4/13/15.
+//  Created by Jiaxin.L on 4/14/15.
 //  Copyright (c) 2015 jl6467. All rights reserved.
 //
 
@@ -27,6 +27,7 @@ class NewsListViewController: UITableViewController, NSFetchedResultsControllerD
         super.viewDidLoad()
         
         self.tableView.separatorStyle = .None
+        self.tableView.backgroundColor = UIColor(red: 51/255.0, green: 51/255.0, blue: 51/255.0, alpha: 1.0)
         
         //set URL & XMLParser
         let realURL = NSURL(string: url)
@@ -48,7 +49,7 @@ class NewsListViewController: UITableViewController, NSFetchedResultsControllerD
         
         //refreshControl things
         self.refreshControl = UIRefreshControl()
-        self.refreshControl?.backgroundColor = UIColor.purpleColor()
+        self.refreshControl?.backgroundColor = UIColor.blackColor()
         self.refreshControl?.tintColor = UIColor.whiteColor()
         self.refreshControl?.addTarget(self, action: "updateAndCompareList", forControlEvents: UIControlEvents.ValueChanged)
     }

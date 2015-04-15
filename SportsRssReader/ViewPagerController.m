@@ -22,7 +22,7 @@
 #define kFixFormerTabsPositions 0.0
 #define kFixLatterTabsPositions 0.0
 
-#define kIndicatorColor [UIColor colorWithRed:178.0/255.0 green:203.0/255.0 blue:57.0/255.0 alpha:0.75]
+#define kIndicatorColor [UIColor colorWithRed:0/255.0 green:122/255.0 blue:255/255.0 alpha:1]
 #define kTabsViewBackgroundColor [UIColor colorWithRed:234.0/255.0 green:234.0/255.0 blue:234.0/255.0 alpha:0.75]
 #define kContentViewBackgroundColor [UIColor colorWithRed:248.0/255.0 green:248.0/255.0 blue:248.0/255.0 alpha:0.75]
 
@@ -68,7 +68,7 @@
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor clearColor];
+        self.backgroundColor = [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1.0];
     }
     return self;
 }

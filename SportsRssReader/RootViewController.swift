@@ -2,8 +2,9 @@
 //  RootViewController.swift
 //  SportsRssReader
 //
-//  Created by Jiaxin Li on 4/13/15.
+//  Created by Jiaxin.L on 4/14/15.
 //  Copyright (c) 2015 jl6467. All rights reserved.
+//
 
 import UIKit
 
@@ -36,7 +37,7 @@ class RootViewController: ViewPagerController, ViewPagerDataSource, ViewPagerDel
         label.textAlignment = .Center
         label.backgroundColor = UIColor.clearColor()
         label.text = categoryTitle[Int(index)]
-        label.textColor = UIColor.blackColor()
+        label.textColor = UIColor.whiteColor()
         label.sizeToFit()
         
         return label
